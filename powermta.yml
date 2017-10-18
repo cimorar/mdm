@@ -1,0 +1,6 @@
+---
+# file: powermta.yml
+- hosts: pmta
+  roles:
+    - powermta
+    

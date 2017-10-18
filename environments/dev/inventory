@@ -1,0 +1,31 @@
+# L1 - definition of basic groups/roles
+[emea-pmta]
+172.16.9.4
+172.16.9.6
+
+[nam-pmta]
+
+[apac-pmta]
+
+
+# L2 groups - geo locations
+[emea:children]
+emea-pmta
+
+[nam:children]
+
+[apac:children]
+
+
+
+# L3 groups - across all geos
+[pmta:children]
+emea-pmta
+nam-pmta
+apac-pmta
+
+
+
+
+
+
